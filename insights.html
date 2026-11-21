@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindMetrics | BU100 Insights</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Nunito:wght@400;600;700;800&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">Mind<span>Metrics</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="timer.html">Timer</a></li>
+          <li><a href="checkin.html">Check-In</a></li>
+          <li><a href="insights.html">Insights</a></li>
+        </ul>
+      </nav>
+      <div id="user-area" class="user-area"></div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="page-title">BU100 Reading Hub 📚</h1>
+    <p class="page-subtitle">Ideas from our Semester 1 readings, applied to student stress and study habits.</p>
+
+    <div class="reading-grid">
+
+      <!-- Section 1: Kahneman -->
+      <article class="reading-section">
+        <h2>Cognitive Fatigue &amp; Thinking, Fast and Slow</h2>
+        <p class="author">Daniel Kahneman</p>
+
+        <p>Kahneman describes two modes of thinking. <strong>System 1</strong> is fast, automatic and intuitive. <strong>System 2</strong> is slow, deliberate and effortful. Solving a calculus problem or tracing a bug in Python needs System 2, and System 2 gets tired.</p>
+
+        <blockquote>When your mind is overloaded, you fall back on quick gut reactions instead of careful reasoning.</blockquote>
+
+        <h3>What this means during exams</h3>
+        <ul>
+          <li>After hours of non-stop studying, logical reasoning gets worse and careless mistakes go up.</li>
+          <li>Stress pushes us toward System 1 shortcuts, such as guessing or panicking.</li>
+          <li>Short breaks protect System 2, which is why the focus timer on this site works.</li>
+        </ul>
+
+        <p><strong>Try this:</strong> do your hardest subject first, when your mind is fresh, and use the <a href="timer.html">Focus Timer</a> to take breaks before you hit a wall.</p>
+      </article>
+
+      <!-- Section 2: Scout Mindset -->
+      <article class="reading-section">
+        <h2>The Scout Mindset &amp; Honest Self-Assessment</h2>
+        <p class="author">Julia Galef</p>
+
+        <p>Galef contrasts the <strong>soldier mindset</strong>, which defends what we already believe, with the <strong>scout mindset</strong>, which tries to see things as they really are. A scout wants an accurate map, even when it is uncomfortable.</p>
+
+        <blockquote>Seeing clearly is more useful than feeling reassured.</blockquote>
+
+        <h3>What this means for burnout</h3>
+        <ul>
+          <li>Soldier thinking says, "I'm fine, I can pull another all-nighter."</li>
+          <li>Scout thinking asks, "Are my sleep, mood and focus actually getting worse?"</li>
+          <li>Logging real numbers each day gives you data instead of guesses.</li>
+        </ul>
+
+        <p><strong>Try this:</strong> do a quick <a href="checkin.html">daily check-in</a> and compare your weekly and monthly trends on the <a href="index.html">Dashboard</a>. Treat it as information, not as a judgment of yourself.</p>
+      </article>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="sdg-badge">SDG 3 · Good Health &amp; Well-being</div>
+    <p>MindMetrics · First-Year Academic Stress &amp; Study-Balance Hub · Built by Team MindMetrics, Bennett University</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
